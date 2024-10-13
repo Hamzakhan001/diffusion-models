@@ -26,14 +26,14 @@ export default function RootLayout({
         <body>
           
           <main>{children}</main>
-          <header>
+          {/* <header>
             <SignedOut>
               <SignInButton />
             </SignedOut>
             <SignedIn>
               <UserButton />
             </SignedIn>
-          </header>
+          </header> */}
         </body>
       </html>
     </ClerkProvider>

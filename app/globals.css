@@ -83,9 +83,9 @@
 /* ========================================== TAILWIND STYLES */
 @layer utilities {
   /* ===== UTILITIES */
-  .wrapper {
+  /* .wrapper {
     @apply max-w-5xl mx-auto px-5 md:px-10 w-full text-dark-400 p-16-regular;
-  }
+  } */
 
   .gradient-text {
     @apply bg-purple-gradient bg-cover bg-clip-text text-transparent;
@@ -325,7 +325,7 @@
   }
 
   .sidebar-link {
-    @apply p-16-semibold flex size-full gap-4 p-4;
+    @apply flex flex-row p-16-semibold size-full gap-4 p-4;
   }
 
   /* TransformationForm Component */
